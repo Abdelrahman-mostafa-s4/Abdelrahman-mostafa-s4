@@ -1,28 +1,112 @@
-# 💫 About Me:
-🔭 I'm currently working on: building my SAP ABAP skills in public, one OOP topic at a time<br>👯 I'm looking to collaborate on: ABAP and ERP projects that solve real business problems<br>🤝 I'm looking for help with: BAPIs and IDocs<br>🌱 I'm currently learning: BAdIs, OData, CDS Views and S/4HANA. AI is next on my list<br>💬 Ask me about: Microsoft Dynamics support, ALV reports and Adobe Forms<br>⚡ Fun fact: I built an AI referee that decides "goal or no goal" using CNN and YOLO
+# AI Learning Journey 🤖
 
+My step-by-step journey into Artificial Intelligence and Machine Learning, starting from the Python fundamentals and building up toward real ML projects.
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/abdelrahman-mostafa-55a540249/) 
-
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Abdelrahman-mostafa-s4&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Abdelrahman-mostafa-s4&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abdelrahman-mostafa-s4&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Abdelrahman-mostafa-s4&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Abdelrahman-mostafa-s4&limit=5&theme=dark&combine_all_yearly_contributions=true)
+> This repository is my learning log: exercises, notes, and small projects that I write while studying. Every week adds a new topic.
 
 ---
-[![](https://komarev.com/ghpvc/?username=Abdelrahman-mostafa-s4&icon=1&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 📚 Roadmap
 
+| Week | Topic | Status |
+|------|-------|--------|
+| 1 | Python Fundamentals | ✅ In progress |
+| 2 | NumPy & Pandas | ⬜ Planned |
+| 3 | Data Visualization (Matplotlib) | ⬜ Planned |
+| 4 | Machine Learning Basics | ⬜ Planned |
+| 5+ | Neural Networks & Deep Learning | ⬜ Planned |
+
+---
+
+## 🧠 Week 1: Python Fundamentals
+
+What I practiced this week:
+
+- **Variables & data types**: `int`, `float`, `str`, and checking types with `isinstance()`
+- **Type conversion**: turning strings into numbers with `int()` and `float()`
+- **Testing my answers**: using `assert` to validate results
+- **Loops**: `for` loops, `range()`, `enumerate()`, and `zip()`
+- **Nested loops**: working with 2D data (rows and columns)
+- **Lists**: `append`, list comprehensions, `sum`, `len`, `min`, `max`
+- **Functions**: parameters, return values, and docstrings
+- **Debugging**: breakpoints, stepping through code, and watching variables in VS Code
+
+### ML-flavored exercises
+
+- Calculating **classification accuracy** from predictions vs. true labels
+- Computing the **mean** of each column in a small dataset
+- **Min-max normalization** to scale values into the range [0, 1]:
+
+  ```
+  x_normalized = (x - min) / (max - min)
+  ```
+
+---
+
+## 📁 Project Structure
+
+```
+.
+├── week1_python_fundamentals.ipynb   # Week 1 exercises and solutions
+├── new.py                            # Scratch file for debugging practice
+└── README.md
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo-name>.git
+   cd <your-repo-name>
+   ```
+
+2. Make sure Python 3.9+ is installed:
+
+   ```bash
+   python --version
+   ```
+
+3. Open the notebook with **Jupyter**, **VS Code**, or **Google Colab**:
+
+   ```bash
+   pip install notebook
+   jupyter notebook
+   ```
+
+4. Or run a plain Python file:
+
+   ```bash
+   python new.py
+   ```
+
+---
+
+## 🛠️ Tools
+
+- Python 3.9
+- Jupyter Notebook / Google Colab
+- Visual Studio Code
+- Git & GitHub
+
+---
+
+## 🎯 Goals
+
+- Build a solid foundation in Python before touching ML libraries
+- Understand the *why* behind every line, not just copy solutions
+- Finish small ML projects and publish them here
+
+---
+
+## 👤 Author
+
+**<Your Name>**
+- GitHub: [@your-username](https://github.com/your-username)
+- LinkedIn: <your-linkedin-link>
+
+---
+
+⭐ If you find this repo helpful, feel free to star it!
